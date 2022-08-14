@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/davidsimonetti/Documents/Programming/Tetris'
+gcc -std=c11 -Wall -Werror -Wconversion -Wextra -I/opt/homebrew/Cellar/sdl2/2.0.22/include/SDL2 -I/opt/homebrew/Cellar/sdl_image/1.2.12_8/include/SDL -L/opt/homebrew/Cellar/sdl2/2.0.22/lib -L/Users/davidsimonetti/Documents/Programming/Libraries/SDL2_image-2.6.1/.libs -lSDL2-2.0.0 -lSDL2_image src/tetris.c -o bin/tetris
+install_name_tool -change /usr/local/lib/libSDL2_image-2.0.0.dylib /Users/davidsimonetti/Documents/Programming/Libraries/SDL2_image-2.6.1/.libs/libSDL2_image-2.0.0.dylib bin/tetris
+ 
+make: Leaving directory `/Users/davidsimonetti/Documents/Programming/Tetris'
+ 

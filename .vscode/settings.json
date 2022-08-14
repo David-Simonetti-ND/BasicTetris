@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "tetris.h": "c",
+        "sdl.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "__node_handle": "c",
+        "__functional_base": "c",
+        "__functional_base_03": "c",
+        "__hash_table": "c",
+        "__tuple": "c",
+        "algorithm": "c",
+        "array": "c",
+        "chrono": "c",
+        "cstddef": "c",
+        "type_traits": "c",
+        "functional": "c",
+        "iterator": "c",
+        "limits": "c",
+        "memory": "c",
+        "ratio": "c",
+        "tuple": "c",
+        "utility": "c"
+    }
+}
